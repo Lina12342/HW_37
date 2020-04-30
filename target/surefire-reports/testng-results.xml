@@ -1,0 +1,2300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" ignored="0" total="80" passed="76">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="1043" started-at="2020-04-30T03:55:16 PDT" finished-at="2020-04-30T03:55:17 PDT">
+    <groups>
+      <group name="cvv">
+        <method signature="CreditCardValidationTest.cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="cvv" class="core.CreditCardValidationTest"/>
+      </group> <!-- cvv -->
+      <group name="type">
+        <method signature="CreditCardValidationTest.type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="type" class="core.CreditCardValidationTest"/>
+      </group> <!-- type -->
+      <group name="exp">
+        <method signature="CreditCardValidationTest.exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="exp" class="core.CreditCardValidationTest"/>
+      </group> <!-- exp -->
+      <group name="luhn">
+        <method signature="CreditCardValidationTest.luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="luhn" class="core.CreditCardValidationTest"/>
+      </group> <!-- luhn -->
+    </groups>
+    <test name="Surefire test" duration-ms="1043" started-at="2020-04-30T03:55:16 PDT" finished-at="2020-04-30T03:55:17 PDT">
+      <class name="core.CreditCardValidationTest">
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="cvv" duration-ms="143" started-at="2020-04-30T03:55:16 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5184-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cvv -->
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="cvv" duration-ms="4" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5284-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cvv -->
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="cvv" duration-ms="4" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5384-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cvv -->
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="cvv" duration-ms="3" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5484-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cvv -->
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="cvv" duration-ms="4" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5584-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cvv -->
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="cvv" duration-ms="4" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5184-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cvv -->
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="cvv" duration-ms="3" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5284-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cvv -->
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="cvv" duration-ms="3" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5384-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cvv -->
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="cvv" duration-ms="3" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5484-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cvv -->
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="cvv" duration-ms="3" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5584-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cvv -->
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="cvv" duration-ms="6" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AmericanExpress]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5184-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cvv -->
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="cvv" duration-ms="2" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AmericanExpress]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5284-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cvv -->
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="cvv" duration-ms="2" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AmericanExpress]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5384-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cvv -->
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="cvv" duration-ms="3" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AmericanExpress]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5484-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cvv -->
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="cvv" duration-ms="3" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AmericanExpress]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5584-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cvv -->
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="cvv" duration-ms="4" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Discover]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5184-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cvv -->
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="cvv" duration-ms="5" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Discover]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5284-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cvv -->
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="cvv" duration-ms="3" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Discover]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5384-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cvv -->
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="cvv" duration-ms="3" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Discover]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5484-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cvv -->
+        <test-method status="PASS" signature="cvv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="cvv" duration-ms="3" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Discover]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5584-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cvv -->
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="exp" duration-ms="3" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5184-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exp -->
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="exp" duration-ms="2" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5284-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exp -->
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="exp" duration-ms="3" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5384-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exp -->
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="exp" duration-ms="4" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5484-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exp -->
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="exp" duration-ms="3" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5584-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exp -->
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="exp" duration-ms="2" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5184-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exp -->
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="exp" duration-ms="3" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5284-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exp -->
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="exp" duration-ms="2" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5384-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exp -->
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="exp" duration-ms="4" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5484-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exp -->
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="exp" duration-ms="4" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5584-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exp -->
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="exp" duration-ms="2" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AmericanExpress]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5184-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exp -->
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="exp" duration-ms="3" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AmericanExpress]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5284-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exp -->
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="exp" duration-ms="3" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AmericanExpress]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5384-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exp -->
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="exp" duration-ms="2" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AmericanExpress]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5484-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exp -->
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="exp" duration-ms="2" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AmericanExpress]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5584-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exp -->
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="exp" duration-ms="3" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Discover]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5184-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exp -->
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="exp" duration-ms="3" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Discover]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5284-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exp -->
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="exp" duration-ms="2" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Discover]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5384-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exp -->
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="exp" duration-ms="3" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Discover]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5484-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exp -->
+        <test-method status="PASS" signature="exp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="exp" duration-ms="2" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Discover]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5584-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exp -->
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="luhn" duration-ms="2" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5184-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luhn -->
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="luhn" duration-ms="3" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5284-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luhn -->
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="luhn" duration-ms="3" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5384-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luhn -->
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="luhn" duration-ms="2" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5484-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luhn -->
+        <test-method status="FAIL" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="luhn" duration-ms="5" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5584-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: Luhn of: 5584-3989-2997-3080, should be valid
+     but: was <true>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: Luhn of: 5584-3989-2997-3080, should be valid
+     but: was <true>
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+at core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:48)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luhn -->
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="luhn" duration-ms="4" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5184-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luhn -->
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="luhn" duration-ms="4" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5284-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luhn -->
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="luhn" duration-ms="2" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5384-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luhn -->
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="luhn" duration-ms="2" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5484-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luhn -->
+        <test-method status="FAIL" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="luhn" duration-ms="3" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5584-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: Luhn of: 5584-3989-2997-3080, should be valid
+     but: was <true>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: Luhn of: 5584-3989-2997-3080, should be valid
+     but: was <true>
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+at core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:48)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luhn -->
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="luhn" duration-ms="2" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AmericanExpress]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5184-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luhn -->
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="luhn" duration-ms="2" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AmericanExpress]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5284-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luhn -->
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="luhn" duration-ms="2" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AmericanExpress]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5384-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luhn -->
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="luhn" duration-ms="2" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AmericanExpress]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5484-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luhn -->
+        <test-method status="FAIL" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="luhn" duration-ms="2" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AmericanExpress]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5584-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: Luhn of: 5584-3989-2997-3080, should be valid
+     but: was <true>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: Luhn of: 5584-3989-2997-3080, should be valid
+     but: was <true>
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+at core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:48)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luhn -->
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="luhn" duration-ms="3" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Discover]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5184-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luhn -->
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="luhn" duration-ms="2" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Discover]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5284-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luhn -->
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="luhn" duration-ms="3" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Discover]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5384-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luhn -->
+        <test-method status="PASS" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="luhn" duration-ms="2" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Discover]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5484-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luhn -->
+        <test-method status="FAIL" signature="luhn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="luhn" duration-ms="3" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Discover]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5584-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: Luhn of: 5584-3989-2997-3080, should be valid
+     but: was <true>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: Luhn of: 5584-3989-2997-3080, should be valid
+     but: was <true>
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+at core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:48)
+at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luhn -->
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="type" duration-ms="2" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5184-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- type -->
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="type" duration-ms="3" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5284-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- type -->
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="type" duration-ms="3" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5384-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- type -->
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="type" duration-ms="8" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5484-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- type -->
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="type" duration-ms="3" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5584-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- type -->
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="type" duration-ms="2" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5184-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- type -->
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="type" duration-ms="2" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5284-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- type -->
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="type" duration-ms="5" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5384-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- type -->
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="type" duration-ms="3" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5484-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- type -->
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="type" duration-ms="2" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5584-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- type -->
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="type" duration-ms="2" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AmericanExpress]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5184-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- type -->
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="type" duration-ms="2" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AmericanExpress]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5284-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- type -->
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="type" duration-ms="5" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AmericanExpress]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5384-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- type -->
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="type" duration-ms="2" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AmericanExpress]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5484-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- type -->
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="type" duration-ms="2" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AmericanExpress]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5584-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- type -->
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="type" duration-ms="5" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Discover]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5184-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- type -->
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="type" duration-ms="2" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Discover]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5284-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- type -->
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="type" duration-ms="2" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Discover]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5384-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- type -->
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="type" duration-ms="2" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Discover]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5484-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- type -->
+        <test-method status="PASS" signature="type(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.CreditCardValidationTest@25e2a451]" name="type" duration-ms="3" started-at="2020-04-30T03:55:17 PDT" data-provider="dp" finished-at="2020-04-30T03:55:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Discover]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5584-3989-2997-3080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- type -->
+      </class> <!-- core.CreditCardValidationTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: core.CreditCardValidationTest
+-------------------------------------------------------------------------------
+Tests run: 80, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 3.968 s <<< FAILURE! - in core.CreditCardValidationTest
+luhn(core.CreditCardValidationTest)  Time elapsed: 0.072 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Luhn of: 5584-3989-2997-3080, should be valid
+     but: was <true>
+	at core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:48)
+
+luhn(core.CreditCardValidationTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Luhn of: 5584-3989-2997-3080, should be valid
+     but: was <true>
+	at core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:48)
+
+luhn(core.CreditCardValidationTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Luhn of: 5584-3989-2997-3080, should be valid
+     but: was <true>
+	at core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:48)
+
+luhn(core.CreditCardValidationTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Luhn of: 5584-3989-2997-3080, should be valid
+     but: was <true>
+	at core.CreditCardValidationTest.luhn(CreditCardValidationTest.java:48)
+

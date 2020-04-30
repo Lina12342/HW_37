@@ -1,0 +1,77 @@
+{
+  "uid" : "c351da6c5d464900",
+  "name" : "type",
+  "fullName" : "core.CreditCardValidationTest.type",
+  "historyId" : "83e5a6c0912e5d2bb793bbb45aad48cc",
+  "time" : {
+    "start" : 1588244117822,
+    "stop" : 1588244117823,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "core.CreditCardValidationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "core.CreditCardValidationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "type"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "core.CreditCardValidationTest"
+  }, {
+    "name" : "host",
+    "value" : "Alenas-MacBook.local"
+  }, {
+    "name" : "thread",
+    "value" : "2863@Alenas-MacBook.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "Discover"
+  }, {
+    "name" : "arg1",
+    "value" : "5284-3989-2997-3080"
+  }, {
+    "name" : "arg2",
+    "value" : "09/23"
+  }, {
+    "name" : "arg3",
+    "value" : "123"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Passed",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c351da6c5d464900.json",
+  "parameterValues" : [ "Discover", "5284-3989-2997-3080", "09/23", "123" ]
+}

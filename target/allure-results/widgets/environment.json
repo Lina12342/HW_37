@@ -1,0 +1,16 @@
+[ {
+  "values" : [ "QE" ],
+  "name" : "environment"
+}, {
+  "values" : [ "macOS 10.15" ],
+  "name" : "os"
+}, {
+  "values" : [ "Alena N" ],
+  "name" : "sdet"
+}, {
+  "values" : [ "coverage" ],
+  "name" : "Test"
+}, {
+  "values" : [ "Firefox 67.0" ],
+  "name" : "browser"
+} ]

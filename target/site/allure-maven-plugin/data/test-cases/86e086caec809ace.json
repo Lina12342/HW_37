@@ -1,0 +1,77 @@
+{
+  "uid" : "86e086caec809ace",
+  "name" : "type",
+  "fullName" : "core.CreditCardValidationTest.type",
+  "historyId" : "9e352f2891e2ff52e846dcec1a828e7e",
+  "time" : {
+    "start" : 1588244117757,
+    "stop" : 1588244117762,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "core.CreditCardValidationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "core.CreditCardValidationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "type"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "core.CreditCardValidationTest"
+  }, {
+    "name" : "host",
+    "value" : "Alenas-MacBook.local"
+  }, {
+    "name" : "thread",
+    "value" : "2863@Alenas-MacBook.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "MasterCard"
+  }, {
+    "name" : "arg1",
+    "value" : "5484-3989-2997-3080"
+  }, {
+    "name" : "arg2",
+    "value" : "09/23"
+  }, {
+    "name" : "arg3",
+    "value" : "123"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Passed",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "86e086caec809ace.json",
+  "parameterValues" : [ "MasterCard", "5484-3989-2997-3080", "09/23", "123" ]
+}

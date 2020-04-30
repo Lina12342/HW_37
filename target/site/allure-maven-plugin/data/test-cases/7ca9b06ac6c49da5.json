@@ -1,0 +1,77 @@
+{
+  "uid" : "7ca9b06ac6c49da5",
+  "name" : "cvv",
+  "fullName" : "core.CreditCardValidationTest.cvv",
+  "historyId" : "e8e958c598f1e4adededc8a67638abe",
+  "time" : {
+    "start" : 1588244117403,
+    "stop" : 1588244117404,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "core.CreditCardValidationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "core.CreditCardValidationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "cvv"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "core.CreditCardValidationTest"
+  }, {
+    "name" : "host",
+    "value" : "Alenas-MacBook.local"
+  }, {
+    "name" : "thread",
+    "value" : "2863@Alenas-MacBook.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "VISA"
+  }, {
+    "name" : "arg1",
+    "value" : "5584-3989-2997-3080"
+  }, {
+    "name" : "arg2",
+    "value" : "09/23"
+  }, {
+    "name" : "arg3",
+    "value" : "123"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Passed",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7ca9b06ac6c49da5.json",
+  "parameterValues" : [ "VISA", "5584-3989-2997-3080", "09/23", "123" ]
+}
